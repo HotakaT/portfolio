@@ -1,0 +1,219 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HOTAKA's PORTFOLIO</title>
+
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="reset.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="slick.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="slick-theme.css" media="screen" />
+<link rel="stylesheet" href="magnific-popup.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="jquery.magnific-popup.min.js"></script>
+<script src="slick.min.js"></script>
+<script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+<header>
+		<p>Portfolio</p>
+		<nav id="nav-drawer">
+			<input id="nav-input" type="checkbox" class="nav-unshown">
+			<label id="nav-open" for="nav-input"><span></span></label>
+      		<label class="nav-unshown" id="nav-close" for="nav-input"></label>
+			
+			<ul id="nav-content">
+				<li class="header-list"><a href="#about">ABOUT</a></li>
+				<li><a href="#galleries">GALLERIES</a></li>
+				<li><a href="#contact">CONTACT</a></li>
+			</ul>
+		</nav>
+	
+	</header>
+	
+<main>
+	<div class="first-view"></div>
+	<div class="about"> 
+		<h2 id="about">はじめに</h2>
+		<p>当サイトは和歌山大学でデザインを学ぶ<br><span class="name">"寺地穂高"</span>のポートフォリオです。<br>
+			ご覧いただきありがとうございます。
+		</p>
+	</div>
+	<div class="plof">
+    <img src="images/terachi.jpg" alt="寺地 穂高" class="plof-img">
+	<p class="plof-detail">	寺地 穂高（Terachi Hotaka）<br>
+		1997年生まれ。大阪府箕面市出身。<br>
+		趣味は音楽。聴くことも奏でることも好きです。<br></p>
+	<h2 class="skill-title">SKILL</h2>
+	<ul class="skill-list">
+	<div class="skill-left">
+	<li>Photoshop</li>
+	<li>Illustrator</li>
+	<li>Dreamweaver</li>
+	<li>Premiere Pro</li>
+	<li>XD</li>
+	</div>
+	<div class="skill-right">
+	<li>HTML5</li>
+	<li>CSS3</li>
+	<li>Javascript</li>
+	<li>jQuery</li>
+	<li>Onsen UI</li>
+	</div>
+	</ul>
+	</div>
+  <ul class="timeline">
+	  <h2 class="career-title">CAREER</h2>
+  <li>
+    <div class="timeline-content">
+      <div class="timeline-year">
+        <h3>2013年</h3>
+      </div>
+      	<p>大阪府立千里高等学校　総合科学科　入学</p>
+		<p>部活動：フォークソング部に所属し、ギターを始める。</p>
+    </div>
+  </li>
+  <li>
+    <div class="timeline-content">
+      <div class="timeline-year">
+        <h3>2016年</h3>
+      </div>
+      	<p>和歌山大学　システム工学部　システム工学科　入学</p>
+		<p>部活動：流行音楽倶楽部に所属、ギターを担当</p>
+		<p>アルバイト：大学付近のスーパー銭湯で受付や清掃業務を担当</p>
+    </div>
+  </li>
+  <li>
+    <div class="timeline-content">
+      <div class="timeline-year">
+        <h3>2017年</h3>
+      </div>
+      	<p>メディアデザインメジャーに配属</p>
+		<p>企画・デザイン・設計の基礎を多岐にわたって学ぶ</p>
+    </div>
+  </li>
+  <li>
+    <div class="timeline-content">
+      <div class="timeline-year">
+        <h3>2018年</h3>
+      </div>
+      	<p>ソフトウェアエルゴノミクス研究室に配属</p>
+		<p>HCDなどのUXデザインを考えた、企画・設計を学ぶ</p>
+    </div>
+  </li>
+</ul>
+	
+	
+<div class="galleries" id="galleries">
+	<h2 class="galleries-title">GALLERIES</h2>
+<ul class="tab">
+  <li class="select"><img src="images/kikaku.png" class="icon" alt=""/><p>企画<br>PLANNING</p></li>
+	<li class="tab2"><img src="images/design.png" class="icon" alt=""/><p>設計<br>DESIGN</p></li>
+	<li class="tab3"><img src="images/cooding.png" class="icon" alt=""/><p>コーディング<br>COODING</p></li>
+</ul>
+<ul class="content">
+	<li>
+		
+		<!-- ↓スライダー本体 -->
+		<div class="thumb-item">
+			<a href="images/kikaku1-pop.jpg" class="popup-image">
+			 <img src="images/kikaku1.jpg" alt="">
+			</a>
+			<a href="images/kikaku2-pop.jpg" class="popup-image">
+			 <img src="images/kikaku2.jpg" alt="">
+			</a>
+			<a href="images/kikaku3-pop.jpg" class="popup-image">
+			 <img src="images/kikaku3.jpg" alt="">
+			</a>
+			 <a href="images/kikaku4-pop.jpg" class="popup-image">
+			 <img src="images/kikaku4.jpg" alt="">
+			</a>
+			<a href="images/kikaku5-pop.jpg" class="popup-image">
+			 <img src="images/kikaku5.jpg" alt="">
+			</a>
+			<a class="popup-modal" href="#inline-wrap"><img src="images/kikaku6.jpg" alt=""></a>
+		</div>
+		<div id="inline-wrap" class="mfp-hide popup-pdf">
+			<p class="popup-title">授業「デザイン企画論」課題</p>
+			<object data="images/kikakuron.pdf" type="application/pdf" width="80%" height="80%"></object>
+			<p class="popup-detail">KJ法・ISM法・AHP法・数量化理論Ⅲ類・クラスター分析を用いて、<br>
+				CMの現状分析を行った。<br>
+				制作期間：2018/1-2(2ヶ月)&nbsp;&nbsp;&nbsp;&nbsp;制作人数：1人
+			</p>
+		</div>
+		<!-- ↓サムネイル -->
+		<div class="thumb-item-nav">
+			 <img src="images/kikaku1.jpg" alt="">
+			 <img src="images/kikaku2.jpg" alt="">
+			 <img src="images/kikaku3.jpg" alt="">
+			 <img src="images/kikaku4.jpg" alt="">
+			 <img src="images/kikaku5.jpg" alt="">
+			 <img src="images/kikaku6.jpg" alt="">
+		</div>
+		
+	</li>
+	<li class="hide">
+	
+		<!-- ↓スライダー本体 -->
+		<div class="thumb-item">
+			<a href="images/design1-pop.jpg" class="popup-image">
+			 <img src="images/design1.jpg" alt="">
+			</a>
+			<a href="images/design2-pop.jpg" class="popup-image">
+			 <img src="images/design2.jpg" alt="">
+			</a>
+			<a href="images/design3-pop.jpg" class="popup-image">
+			 <img src="images/design3.jpg" alt="">
+			</a>
+		</div>
+		<!-- ↓サムネイル -->
+		<div class="thumb-item-nav">
+			 <img src="images/design1.jpg" alt="">
+			 <img src="images/design2.jpg" alt="">
+			 <img src="images/design3.jpg" alt="">
+		</div>
+		
+	</li>
+	<li class="hide">
+	
+	<!-- ↓スライダー本体 -->
+		<div class="thumb-item">
+            <div><a href="images/cood1-pop.jpg" class="popup-image">
+             <img src="images/cood1.jpg" alt="">
+            </a>
+              <a href="images/cood1.mp4" target="_blank">動画はこちら</a></div>
+			<a href="first.jpg" class="popup-image">
+			 <img src="1800900.jpg" alt="">
+			</a>
+			 <img src="1800900.jpg" alt="">
+			 <img src="1800900.jpg" alt="">
+			 <img src="1800900.jpg" alt="">
+			 <img src="1800900.jpg" alt="">
+		</div>
+		<!-- ↓サムネイル -->
+		<div class="thumb-item-nav">
+			 <img src="images/cood1.jpg" alt="">
+			 <img src="1800900.jpg" alt="">
+			 <img src="1800900.jpg" alt="">
+			 <img src="1800900.jpg" alt="">
+			 <img src="1800900.jpg" alt="">
+			 <img src="1800900.jpg" alt="">
+		</div>
+	
+	</li>
+</ul>
+</div>
+	
+<div class="contact" id="contact">
+	<h2 class="contact-title">CONTACT</h2>	
+	<p>和歌山大学システム工学部システム工学科<br>
+		メディアデザインメジャー所属<br>
+		寺地　穂高（テラチ　ホタカ）<br>
+		e-mail：<a href="mailto:s216175@wakayama-u.ac.jp">s216175@wakayama-u.ac.jp</a><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:hotaka0913s@gmail.com">hotaka0913s@gmail.com</a>
+</p>
+</div>
+</main>
+<footer><p>@2019 Portfolio |　Hotaka Terachi</p></footer>
+</body>
+</html>
